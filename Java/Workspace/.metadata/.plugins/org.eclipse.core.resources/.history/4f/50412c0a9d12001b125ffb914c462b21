@@ -1,0 +1,9 @@
+package com.baseball;
+
+public class BattingAverage {
+//create method to analyze hits vs ABs.
+	void battingAverage() {
+	}
+}
+
+

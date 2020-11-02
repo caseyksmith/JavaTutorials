@@ -1,0 +1,34 @@
+package com.tutorials.oops;
+
+public class MotorBikeRunner {
+
+	public static void main(String[] args) {
+		MotorBike ducati = new MotorBike();
+		MotorBike honda = new MotorBike();
+
+		ducati.start();
+		honda.start();
+
+		ducati.setSpeed(100);// showing how state of object can change across duration
+		// System.out.println(ducati.getSpeed());
+
+		ducati.increaseSpeed(100);
+		honda.increaseSpeed(100);
+
+		// get current speed
+		// increase by 100
+		// set it to ducati
+		int ducatiSpeed = ducati.getSpeed();
+		ducatiSpeed += 100;
+		ducati.setSpeed(ducatiSpeed);
+
+		int hondaSpeed = honda.getSpeed();
+		hondaSpeed += 100;
+		honda.setSpeed(hondaSpeed);
+
+		// honda.setSpeed(80);
+		System.out.println(honda.getSpeed());
+		System.out.println(ducati.getSpeed());
+	}
+
+}

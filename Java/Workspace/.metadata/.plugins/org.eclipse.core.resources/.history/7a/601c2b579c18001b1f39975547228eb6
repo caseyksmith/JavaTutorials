@@ -1,0 +1,26 @@
+package com.tutorials.oops;
+
+public class MotorBike {
+	// state
+	private int speed; // create instance variable // private - cannot be accessed outside class
+
+	
+	
+	public int getSpeed() {
+		return speed;
+	}
+
+
+
+	public void setSpeed(int speed) {
+		this.speed = speed;
+	}
+
+
+
+	// behavior
+	void start() {
+		System.out.println("Bike started");
+	}
+
+}

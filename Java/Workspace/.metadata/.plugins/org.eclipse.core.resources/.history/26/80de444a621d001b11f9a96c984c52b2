@@ -1,0 +1,20 @@
+package com.tutorials.oops;
+
+public class Book {
+
+	public int noOfCopies; // create instance variable
+
+	void setNoOfCopies(int noOfCopies) { // create method to set noOfCopies
+		this.noOfCopies = noOfCopies;
+	}
+
+	public void setNoOfCopies(int noOfCopies) {
+		if (noOfCopies > 0) {
+			this.noOfCopies = noOfCopies;
+		}
+		
+	}
+	
+	public void
+
+}
