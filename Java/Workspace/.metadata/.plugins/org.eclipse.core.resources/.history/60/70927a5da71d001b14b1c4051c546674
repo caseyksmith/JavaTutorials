@@ -1,0 +1,10 @@
+package com.firstjavaproject;
+
+public class FindDistance {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}
