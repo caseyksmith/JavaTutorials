@@ -1,0 +1,33 @@
+package com.baseball;
+
+import java.util.Scanner;
+
+public class BattingAverageRunner {
+
+	public static void main(String[] args) {
+		String player;
+		int hits;
+		int atBats;
+		int walks;
+
+		Scanner in = new Scanner(System.in);
+
+		System.out.println("Who is batting? ");
+		player = in.nextLine();
+		System.out.println("How many at bats? ");
+		atBats = in.nextInt();
+		System.out.println("How many hits? ");
+		hits = in.nextInt();
+		System.out.println("How many walks? ");
+		walks = in.nextInt();
+
+		// Batting Average = Hits/At-Bats (Walk is not an at-bat)
+
+		float battingAverage = hits / (atBats - walks);
+		System.out.println(battingAverage);
+
+		//System.out.printf("Player: %s\nBatting Average: ", player, battingAverage);
+
+	}
+
+}

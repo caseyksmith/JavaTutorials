@@ -1,0 +1,19 @@
+package com.baseball;
+
+public class BattingAverage {
+//create method to analyze hits and walks vs ABs.
+
+	public int hits;
+	public int atBats;
+	public int walks;
+
+	public void battingAverage(int hits, int atBats, int walks) {
+		this.hits = hits;
+		this.atBats = atBats;
+		this.walks = walks;
+
+	}
+
+}
+
+

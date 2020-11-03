@@ -1,0 +1,18 @@
+package com.baseball;
+
+public class BattingAverage {
+//create method to analyze hits vs ABs.
+	
+	private int hits;
+	private int atBats;
+	private int walks;
+	
+	void battingAverage(int hits, int atBats, int walks) {
+		
+	
+		System.out.printf("%d hits in %d at bats. %d - %d. Their average is ", hits, atBats, hits);
+
+	}
+}
+
+
