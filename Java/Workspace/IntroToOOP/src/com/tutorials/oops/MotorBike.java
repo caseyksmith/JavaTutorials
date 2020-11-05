@@ -4,6 +4,14 @@ public class MotorBike {
 	// state
 	private int speed; // create instance variable // private - cannot be accessed outside class
 
+	MotorBike() {
+		this(5); // calls the other MotorBike constructor
+	}
+
+	MotorBike(int speed) { // Uses a constructor. Needs the same name as the object
+		this.speed = speed;
+	}
+
 	public int getSpeed() {
 		return speed;
 	}
