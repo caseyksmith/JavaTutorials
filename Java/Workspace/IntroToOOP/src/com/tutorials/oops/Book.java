@@ -4,9 +4,13 @@ public class Book {
 
 	private int noOfCopies;
 
-	public Book(int noOfCopies) {
+	Book(int noOfCopies) {
 		this.noOfCopies = noOfCopies;
 	}
+
+	/*
+	 * public Book(int noOfCopies) { this.noOfCopies = noOfCopies; }
+	 */
 
 	public void setNoOfCopies(int noOfCopies) {
 		if (noOfCopies > 0) {

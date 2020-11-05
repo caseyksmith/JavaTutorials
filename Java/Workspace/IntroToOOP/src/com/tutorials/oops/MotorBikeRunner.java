@@ -3,8 +3,8 @@ package com.tutorials.oops;
 public class MotorBikeRunner {
 
 	public static void main(String[] args) {
-		MotorBike ducati = new MotorBike();
-		MotorBike honda = new MotorBike();
+		MotorBike ducati = new MotorBike(100);
+		MotorBike honda = new MotorBike(230);
 
 		ducati.start();
 		honda.start();
