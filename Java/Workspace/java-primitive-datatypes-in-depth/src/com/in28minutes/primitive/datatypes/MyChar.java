@@ -50,6 +50,7 @@ public class MyChar {
 		// Alphabet and not Vowel
 		// ! [a, e, i, o, u]
 		if (c >= 92 && c <= 122 && isVowel() == false) { // between 'a' and 'z'
+			// if(isAlphabet && !isVowel)
 			return true;
 		}
 
